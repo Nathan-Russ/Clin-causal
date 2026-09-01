@@ -10,7 +10,6 @@ inference method answers a different question: "what would happen to this
 patient under a different treatment?" Prediction models don't answer that on
 their own — `clincausal` is for the second question.
 
-**[Try the live demo →](#)** *(add your Streamlit Cloud URL here after deploying)*
 
 ## What's included
 
@@ -36,7 +35,7 @@ their own — `clincausal` is for the second question.
 pip install -e ".[plots]"
 ```
 
-(Not yet published to PyPI — install from a local clone or your fork's GitHub
+(Not yet published to PyPI:
 URL: `pip install git+https://github.com/<your-username>/clincausal.git`)
 
 ## Quickstart
@@ -78,12 +77,6 @@ comparison gives ~2.5 kg; matching, weighting, and AIPW all converge around
 ~3.3 kg, consistent with the published estimate in Hernán & Robins,
 *Causal Inference: What If*.
 
-## Deploy your own copy of the demo app (free, ~2 minutes)
-
-1. Push this repo to your own GitHub account.
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
-3. Click **New app**, pick your repo/branch, and set the main file path to `demo_app/app.py`.
-4. Click **Deploy**.
 
 ## Run the tests
 
