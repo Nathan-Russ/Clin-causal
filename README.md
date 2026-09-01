@@ -36,7 +36,7 @@ pip install -e ".[plots]"
 ```
 
 (Not yet published to PyPI:
-URL: `pip install git+https://github.com/<your-username>/clincausal.git`)
+URL: `pip install git+https://github.com/Nathan-Russ/Clin-causal.git`)
 
 ## Quickstart
 
